@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: movies
-          image: acslook/rotten-potatoes:v1
+          image: acslook/rotten-potatoes
           ports:
             - containerPort: 5000
           env:
